@@ -1,4 +1,3 @@
-README: Path Planning with BIT* in 2D and 2.5D
 Overview
 This Python script implements a path planning algorithm using the BIT* (Batch Informed Trees Star)
 planner from the OMPL (Open Motion Planning Library). The script allows for planning in both 2D
@@ -21,13 +20,7 @@ Features
 - 2.5D Path Planning: Uses a heightmap image for terrain-based planning with elevation.
 - Heuristic Comparison: Euclidean, Manhattan, and Geodesic distances are calculated.
 - Spline Interpolation: Smooths out the paths using cubic splines.
-
-File Structure
-
-    test.py: The main script that contains all the functions for planning and path interpolation.
-    map_test.png: A grayscale image used for the 2D path planning.
-    grayscale_elevation_map.png: A grayscale heightmap used for 2.5D path planning.
-    - Path Visualization: Plots the paths on their respective maps.
+- Path Visualization: Plots the paths on their respective maps.
 Usage
 Run the script by executing:
 python test.py
@@ -37,7 +30,3 @@ Output
 - 2D Path: Visualized on a binary map image.
 - 2.5D Path: Visualized on a heightmap with elevation.
 - Metrics: Euclidean, Manhattan, and Geodesic distances, and time taken for path planning.
-Example Output
-Running BIT* in 2D with Map...
-2D Path Time: 0.0032 seconds
-2D Path Euclidean Distance: 1.2367, Manhattan Distance: 1.8542
